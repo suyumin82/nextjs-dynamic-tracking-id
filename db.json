@@ -1,0 +1,11 @@
+{
+  "analytics": [
+      {
+          "id": 1, 
+          "merchant": "disney",
+          "type": "google", 
+          "trackingId": "2843460182618722"    
+      }
+  ]
+
+}
