@@ -41,8 +41,13 @@ function AnalyticList({ articles }) {
 
 export default AnalyticList
 
-export async function getServerSideProps() {
-    console.log('Pre-rendering AnalyticList')
+export async function getServerSideProps({ req, res }) {
+    res.setHeader(
+        // 'Cache-Control',
+        // 'public, s-maxage=10, stale-while-revalidate=59'
+        'Cache-Control', 'no-cache, no-store, max-age=0, must-revalidate'
+    )
+
     const response = await fetch('http://localhost:4000/analytics')
     const data = await response.json()
 
