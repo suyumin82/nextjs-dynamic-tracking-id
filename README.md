@@ -1,9 +1,6 @@
 # nextjs-dynamic-tracking-id
 to include analytic id dynamically during run time 
 
-=======
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 To serve json as api, first, run data layer:
