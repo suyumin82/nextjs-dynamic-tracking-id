@@ -35,6 +35,24 @@ function AnalyticList({ articles }) {
             <button type="button" onClick={handleClick}>
                 Buy $10
             </button>{" "}
+            <p>facebook pixel events are:</p>
+            <p>Purchase: Someone completes a purchase on your website.</p>
+            <p>Lead: Someone signs up for a trial or otherwise identifies themselves as a lead on your site.</p>
+            <p>Complete registration: Someone completes a registration form on your site, such as a subscription form.</p>
+            <p>Add payment info: Someone enters their payment information in the purchase process on your website.</p>
+            <p>Add to cart: Someone adds a product to their shopping cart on your site.</p>
+            <p>Add to wishlist: Someone adds a product to a wishlist on your site.</p>
+            <p>Initiate checkout: Someone starts the checkout process to buy something from your site.</p>
+            <p>Search: Someone uses the search function to look for something on your site.</p>
+            <p>View content: Someone lands on a specific page on your website.</p>
+            <p>Contact: Someone contacts your business.</p>
+            <p>Customize product: Someone selects a specific version of a product, such as choosing a certain color.</p>
+            <p>Donate: Someone makes a donation to your cause.</p>
+            <p>Find location: Someone searches for your business’s physical location.</p>
+            <p>Schedule: Someone books an appointment at your business.</p>
+            <p>Start trial: Someone signs up for a free trial of your product.</p>
+            <p>Submit application: Someone applies for your product, service, or program, such as a credit card.</p>
+            <p>Subscribe: Someone subscribes to a paid product or service.</p>
         </div>
     );
 }
@@ -43,8 +61,6 @@ export default AnalyticList
 
 export async function getServerSideProps({ req, res }) {
     res.setHeader(
-        // 'Cache-Control',
-        // 'public, s-maxage=10, stale-while-revalidate=59'
         'Cache-Control', 'no-cache, no-store, max-age=0, must-revalidate'
     )
 
