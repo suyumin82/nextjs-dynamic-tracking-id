@@ -9,7 +9,7 @@ To serve json as api, first, run data layer:
 yarn run serve-json
 ```
 
-Open [http://localhost:4000/analytics] (http://localhost:4000/analytics) with your brwoser to see the json data. 
+Open [http://localhost:4000/analytics](http://localhost:4000/analytics) with your brwoser to see the json data. 
 
 next, run the development server:
 
